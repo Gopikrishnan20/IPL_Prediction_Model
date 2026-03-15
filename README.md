@@ -8,7 +8,7 @@ This is the base version (V1) of the project and serves as a foundation for futu
 
 Dataset
 
-The dataset used is a ball-by-ball IPL dataset containing detailed information about every delivery in IPL matches.
+The dataset used is a IPL Dataset(2008-2025) IPL dataset containing detailed information about every delivery in IPL matches.
 
 Since the model predicts match outcomes, the dataset is first converted into match-level data, where each match is represented by a single row with relevant match features.
 
@@ -36,7 +36,7 @@ The project follows the following pipeline:
 
 Load IPL dataset
 
-Convert ball-by-ball data to match-level data
+Convert IPL Dataset(2008-2025) data to match-level data
 
 Clean dataset and remove missing values
 
